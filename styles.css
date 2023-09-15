@@ -5,6 +5,10 @@
     #F1F1F1
 
     My Hover effects:
+
+    Menu:
+    - Pink box with box-shadow
+    - Menu text with blue above or darker blue
 */
 
 /* BODY */
@@ -58,14 +62,14 @@ a:hover {
     flex-direction: column;
     align-items: center;
 
-    color: #F1F1F1;
+    color: #f1f1f1;
 }
 
 .hero-text > button {
     background-color: transparent;
-    color: #F1F1F1;
+    color: #f1f1f1;
 
-    border-color: #F1F1F1;
+    border-color: #f1f1f1;
     border-radius: 3px;
 
     padding: 0.6rem;
