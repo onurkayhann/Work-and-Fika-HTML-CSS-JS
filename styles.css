@@ -5,3 +5,31 @@
 
     My Hover effects:
 */
+
+/* BODY */
+
+body {
+    font-family: 'Raleway';
+    background-color: #fbeaeb;
+    color: #2f3c7e;
+}
+
+/* NAVBAR */
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navBar > a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 1rem;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #2f3c7e;
+    color: #fbeaeb;
+}
