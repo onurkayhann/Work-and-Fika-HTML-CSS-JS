@@ -2,7 +2,7 @@
     My Colors:
     #2F3C7E
     #FBEAEB
-    #FAF9F6
+    #F1F1F1
 
     My Hover effects:
 */
@@ -25,7 +25,6 @@ body {
 .navBar > a {
     text-decoration: none;
     text-transform: uppercase;
-
     padding: 1rem;
     font-weight: bold;
 }
@@ -58,14 +57,15 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #FAF9F6;
+
+    color: #F1F1F1;
 }
 
 .hero-text > button {
     background-color: transparent;
-    color: #FAF9F6;
+    color: #F1F1F1;
 
-    border-color: #FAF9F6;
+    border-color: #F1F1F1;
     border-radius: 3px;
 
     padding: 0.6rem;
