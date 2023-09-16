@@ -35,7 +35,7 @@ body {
     font-weight: bold;
 }
 
-a:hover {
+.navBar > a:hover {
     background-color: #2f3c7e;
     color: #fbeaeb;
 }
@@ -91,6 +91,8 @@ a:hover {
 
 /* --- MENU PAGE --- */
 
+/* HERO */
+
 .menu-hero-image {
     display: flex;
     flex-direction: column;
@@ -106,4 +108,61 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+a > button {
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #f1f1f1;
+
+    border-color: #f1f1f1;
+    border-radius: 3px;
+
+    margin-top: 1rem;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+/* MENU CARDS */
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 6rem;
+}
+
+.card {
+    background-color: #fbeaeb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+
+    border-radius: 5px;
+
+    margin: 2rem;
+    width: 15vw;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card > img {
+    height: 20vh;
+    width: 15vw;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.container > p {
+    color: #fbeaeb;
+    background-color: #2f3c7e;
+    text-transform: uppercase;
+
+    padding: 1rem;
+    width: 3vw;
 }
