@@ -274,3 +274,31 @@ a > button {
     background-color: #fff;
     transition: all 0.4s ease-out;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+    .footer {
+        height: 50vh;
+    }
+
+    .footer-email-form {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .footer {
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer-4 {
+        display: none;
+    }
+
+    .footer-email-form {
+        margin-top: 2rem;
+    }
+}
