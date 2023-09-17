@@ -3,6 +3,8 @@
     #2F3C7E
     #FBEAEB
     #F1F1F1
+    #020626
+
 
     My Hover effects:
 
@@ -10,6 +12,12 @@
     - Pink box with box-shadow
     - Menu text with blue above or darker blue
 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /* BODY */
 
@@ -63,29 +71,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    color: #f1f1f1;
+    color: #fff;
 }
 
 .hero-text > h1 {
     font-size: 3.5rem;
     text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
 .hero-text > p {
     font-size: 1.3rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero-text > button {
     text-transform: uppercase;
     background-color: transparent;
-    color: #f1f1f1;
+    color: #fff;
 
-    border-color: #f1f1f1;
+    border-color: #fff;
     border-radius: 3px;
 
     margin-top: 1rem;
-    padding: 0.6rem;
+    padding: 0.9rem;
     cursor: pointer;
 }
 
@@ -119,7 +128,7 @@ a > button {
     border-radius: 3px;
 
     margin-top: 1rem;
-    padding: 0.6rem;
+    padding: 0.9rem;
     cursor: pointer;
 }
 
@@ -163,6 +172,101 @@ a > button {
     background-color: #2f3c7e;
     text-transform: uppercase;
 
+    margin-top: 1rem;
     padding: 1rem;
-    width: 3vw;
+    width: 4.5vw;
+}
+
+/* FOOTER */
+.footer-container {
+    background-color: #020626;
+    padding: 4rem 0 4rem 0;
+}
+
+.footer {
+    width: 80vw;
+    height: 40vh;
+    background-color: #020626;
+    color: #fbeaeb;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: #fbeaeb;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+    transition: 0.3 ease-out;
+}
+
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 15.625rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::-webkit-input-placeholder {
+    color: #b1b1b1;
+}
+
+#footer-email::-moz-placeholder {
+    color: #b1b1b1;
+}
+
+#footer-email:-ms-input-placeholder {
+    color: #b1b1b1;
+}
+
+#footer-email::-ms-input-placeholder {
+    color: #b1b1b1;
+}
+
+#footer-email::placeholder {
+    color: #b1b1b1;
+}
+
+#footer-email-btn {
+    width: 6.25rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    background-color: #fbeaeb;
+    color: #2f3c7e;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+#footer-email-btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    transition: all 0.4s ease-out;
 }
