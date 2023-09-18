@@ -52,6 +52,42 @@ body {
     color: #fbeaeb;
 }
 
+/* MODAL - JS */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    /* background-color: #2f3c7e;
+    background-color: rgba(47, 60, 126, 0.4); */
+}
+
+.modal-content {
+    background-color: #fbeaeb;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #020626;
+    width: 80vw;
+}
+
+.close {
+    color: #020626;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* HERO */
 
 .hero-image {
