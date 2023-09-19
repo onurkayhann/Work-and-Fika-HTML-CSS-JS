@@ -538,6 +538,17 @@ a > button {
     }
 }
 
+/*
+  RESPONSIVITY:
+  - navbar --> CHECK!
+  - menu --> UNDONE!!!
+  - about us --> UNDONE!!!
+  - contact --> UNDONE!!!
+  - work --> UNDONE!!!
+  - footer --> CHECK!
+
+*/
+
 /* --- FOOTER --- */
 
 @media screen and (max-width: 1200px) {
