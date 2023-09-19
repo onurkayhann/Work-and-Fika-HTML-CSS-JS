@@ -521,6 +521,24 @@ a > button {
     transform: skew(30deg);
 }
 /* ------ MEDIA QUERIES ------ */
+/* ------ MEDIA QUERIES FOR IPHONE 11/12/13/14 PRO --> 375 X 812 ------ */
+
+/* --- NAVBAR --- */
+
+@media screen and (max-width: 375px) {
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        font-size: smaller;
+    }
+
+    .navBar > a {
+        font-size: smaller;
+        padding-right: 0.3rem;
+    }
+}
+
+/* --- FOOTER --- */
 
 @media screen and (max-width: 1200px) {
     .footer {
