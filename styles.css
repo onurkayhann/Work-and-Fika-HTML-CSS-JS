@@ -377,6 +377,10 @@ a > button {
     margin-left: 2rem;
 }
 
+.wrapper span {
+    font-weight: bold;
+}
+
 .wrapper ion-icon {
     font-size: 1.2rem;
     line-height: 1.5rem;
