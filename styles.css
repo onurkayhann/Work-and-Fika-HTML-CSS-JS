@@ -472,6 +472,50 @@ a > button {
     position: relative;
 }
 
+.work-container {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.work-card {
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+
+    width: 60vh;
+    height: 30vh;
+
+    background-color: #fff;
+    margin: 0 auto;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transform: skew(-30deg);
+
+    border-radius: 5px;
+    border: 3px solid #2f3c7e;
+}
+
+.work-card h2 {
+    margin: 0.8rem 0 2rem 1.2rem;
+    transform: skew(30deg);
+    text-transform: uppercase;
+}
+
+.work-card p {
+    transform: skew(30deg);
+    margin-bottom: 0.7rem;
+}
+
+.icon-work {
+    transform: skew(30deg);
+}
+
+.work-card ion-icon {
+    transform: skew(30deg);
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1200px) {
