@@ -55,8 +55,6 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: auto;
-    /* background-color: #2f3c7e;
-    background-color: rgba(47, 60, 126, 0.4); */
 }
 
 .modal-content {
