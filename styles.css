@@ -4,12 +4,6 @@
     #FBEAEB
     #F1F1F1
     #020626
-
-
-    My Hover effects:
-
-    Navbar:
-    - Add Gallery section
 */
 
 * {
@@ -386,7 +380,7 @@ a > button {
     line-height: 1.5rem;
 }
 
-/* CONTACT PAGE */
+/* --- CONTACT PAGE ---  */
 
 .contact-container {
     display: flex;
@@ -403,7 +397,6 @@ a > button {
 .contact-info {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 
     width: 40vw;
     height: 50vh;
@@ -452,9 +445,10 @@ a > button {
     margin-left: 2rem;
 }
 
-/* WORK PAGE */
+/* --- WORK PAGE --- */
 
 /* HERO */
+
 .work-hero-image {
     display: flex;
     flex-direction: column;
@@ -501,7 +495,6 @@ a > button {
 .work-card h2 {
     margin: 0.8rem 0 2rem 1.2rem;
     transform: skew(30deg);
-    text-transform: uppercase;
 }
 
 .work-card p {
@@ -516,7 +509,7 @@ a > button {
 .work-card ion-icon {
     transform: skew(30deg);
 }
-/* MEDIA QUERIES */
+/* ------ MEDIA QUERIES ------ */
 
 @media screen and (max-width: 1200px) {
     .footer {
