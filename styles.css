@@ -396,7 +396,7 @@ a > button {
 
     margin-top: 2rem;
 
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
 
@@ -409,9 +409,47 @@ a > button {
     height: 50vh;
 }
 
+.contact-info h2 {
+    margin-bottom: 1.5rem;
+}
+
 .contact-info img {
+    width: 21rem;
+    height: 13rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.contact-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     width: 20rem;
-    height: 15rem;
+}
+
+.contact-address {
+    margin-bottom: 1rem;
+}
+
+.contact-address p {
+    margin-bottom: 0.7rem;
+}
+
+.contact-find {
+    margin-bottom: 1rem;
+}
+
+.contact-find p {
+    margin-bottom: 0.7rem;
+}
+
+.copyright {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
 /* MEDIA QUERIES */
