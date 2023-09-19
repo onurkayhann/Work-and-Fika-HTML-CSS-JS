@@ -64,7 +64,13 @@ body {
     margin: 15% auto;
     padding: 20px;
     border: 3px solid #020626;
-    width: 80vw;
+    width: 50vw;
+}
+
+.modal-content p {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
 .close {
