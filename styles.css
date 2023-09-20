@@ -603,6 +603,13 @@ a > button {
 /* --- WORK PAGE --- */
 
 @media screen and (max-width: 375px) {
+    .hero-text > h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-text > p {
+        font-size: 1.15rem;
+    }
     .work-container {
         display: flex;
         flex-direction: column;
@@ -623,10 +630,12 @@ a > button {
 
     .work-card h2 {
         transform: none;
+        font-size: 1.75rem;
     }
 
     .work-card p {
         transform: none;
+        font-size: 1.12rem;
     }
 
     .work-card ion-icon {
@@ -682,13 +691,13 @@ a > button {
   TASKS:
   - make bigger fonts on mobile screen
   - fix modal in mobile screen
-  - bigger fonts on navbar
+  - bigger fonts on navbar✅
   - clean the code
+  - bilder till menyn✅
 
   PRESENTATION:
   - flexbox generellt sätt i sidan
   - skew i desktop men ingen skew i mobilläge
   - min JS funktion är modalen
-  - bilder till menyn
 
 */
