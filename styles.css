@@ -487,8 +487,8 @@ a > button {
     flex-direction: column;
     align-items: space-evenly;
 
-    width: 60vh;
-    height: 30vh;
+    width: 30vw;
+    height: auto;
 
     background-color: #fff;
     margin: 0 auto;
@@ -600,16 +600,39 @@ a > button {
     }
 }
 
-/*
-  RESPONSIVITY:
-  - navbar --> CHECK!
-  - menu --> CHECK!
-  - about us --> CHECK!
-  - contact --> CHECK!
-  - work --> UNDONE!!!
-  - footer --> CHECK!
+/* --- WORK PAGE --- */
 
-*/
+@media screen and (max-width: 375px) {
+    .work-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 160vh;
+    }
+
+    .work-card {
+        display: flex;
+        flex-direction: column;
+        align-items: space-evenly;
+        width: 92vw;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        height: 40vh;
+        transform: none;
+    }
+
+    .work-card h2 {
+        transform: none;
+    }
+
+    .work-card p {
+        transform: none;
+    }
+
+    .work-card ion-icon {
+        transform: none;
+    }
+}
 
 /* --- FOOTER --- */
 
@@ -654,3 +677,11 @@ a > button {
         width: 67vw;
     }
 }
+
+/*
+  TASKS:
+  - make bigger fonts on mobile screen
+  - fix modal in mobile screen
+  - bigger fonts on navbar
+
+*/
